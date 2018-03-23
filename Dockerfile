@@ -1,9 +1,5 @@
 from python:slim
 
-#apt-get update; \
-#	apt-get install -y --no-install-recommends \
-#        openssh-client
-
 run set -ex; \
 pip install --no-cache-dir awscli;\
 find /usr/local -depth \
